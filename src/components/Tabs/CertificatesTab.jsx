@@ -6,16 +6,21 @@ const CertificatesTab = ({ certificates }) => {
             data-aos="fade-down"
         >
             {certificates.map((certificate) => (
-                <div
+                <a
                     key={certificate.id}
-                    className="bg-white dark:bg-gray-800 border border-white rounded-lg shadow-lg hover:-translate-y-1 transition-transform overflow-hidden"
+                    href={certificate.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
                 >
-                    <img
-                        src={certificate.img}
-                        alt={certificate.title}
-                        className="w-full h-72 object-cover rounded-lg"
-                    />
-                </div>
+                    <div className="bg-white dark:bg-gray-800 border border-white rounded-lg shadow-lg hover:-translate-y-1 transition-transform overflow-hidden">
+                        <img
+                            src={certificate.img}
+                            alt={certificate.title || "certificate"}
+                            className="w-full h-72 object-cover rounded-lg"
+                        />
+                    </div>
+                </a>
             ))}
         </div>
     );

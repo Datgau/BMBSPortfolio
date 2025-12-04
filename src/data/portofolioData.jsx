@@ -38,40 +38,51 @@ export const portfolioData = {
         certificates: [
             {
                 id: 1,
-                img: "/assets/PythonData.png"
+                img: "/assets/MichiganPython.png",
+                link: "https://www.coursera.org/account/accomplishments/certificate/DVB10KRJGOIV"
             },
             {
                 id: 2,
                 img: "/assets/UdemyCertificate.jpg",
+                link: "https://example.com/certificate2"
             },
             {
                 id: 3,
+                img: "/assets/AI.png",
+                link: "https://www.coursera.org/account/accomplishments/certificate/L22BFH8TZFDH"
+            },
+            {
+                id: 4,
+                img: "/assets/MichiganU.png",
+                link: "https://www.coursera.org/account/accomplishments/certificate/J5NB914EQZE0"
+            },
+            {
+                id: 5,
+                img: "/assets/PythonData.png",
+                link: "https://www.coursera.org/account/accomplishments/certificate/ADHDIJJI0OU9"
+            },
+            {
+                id: 6,
                 img: "/assets/cert.jpg",
+                link: "https://example.com/certificate6"
             },
             {
-                id: 1,
-                img: "/assets/PythonData.png"
-            },
-            {
-                id: 2,
-                img: "/assets/UdemyCertificate.jpg",
-            },
-            {
-                id: 3,
+                id: 7,
                 img: "/assets/cert.jpg",
-            }, {
-                id: 1,
-                img: "/assets/PythonData.png"
+                link: "https://example.com/certificate7"
             },
             {
-                id: 2,
-                img: "/assets/UdemyCertificate.jpg",
-            },
-            {
-                id: 3,
+                id: 8,
                 img: "/assets/cert.jpg",
+                link: "https://example.com/certificate8"
+            },
+            {
+                id: 9,
+                img: "/assets/cert.jpg",
+                link: "https://example.com/certificate9"
             }
         ],
+
         techStacks : [
             {
                 id: 1,
